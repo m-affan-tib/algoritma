@@ -1,0 +1,19 @@
+int main(int argc, char **argv)
+ {
+	 int data[8]={1,2,3,4,5,6,7,8},i,banyak_data,cari; 
+	banyak_data = 8;
+	 cari = 7; i=0;
+ 	while( i < banyak_data && data[i] != cari) 
+	{
+	     i++;
+	 }
+	if(data[i]==cari) 
+	{
+	    std::cout << "data ketemu di indeks ke " << i; 
+	}
+	 else
+	 { 
+	    std::cout << "data tidak ketemu"; 
+	 }
+	return 0;
+}
